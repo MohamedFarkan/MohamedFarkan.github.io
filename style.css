@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: pink;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  border: none;
+  outline: none;
+  background-color: aliceblue;
+  padding: 30px;
+}
+.container img {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 30px;
+}
+.container input {
+  margin-bottom: 20px;
+  padding: 10px 50px;
+  font-size: large;
+  text-align: center;
+}
+.container p {
+  width: 70%;
+}
